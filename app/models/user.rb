@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-    has_one :owner
+    belongs_to :owner
 end
