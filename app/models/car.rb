@@ -1,4 +1,4 @@
 class Car < ApplicationRecord
-    belongs_to :owners
-    belongs_to :dealers
+    belongs_to :owner
+    belongs_to :dealer
 end
